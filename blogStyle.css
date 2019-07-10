@@ -1,0 +1,31 @@
+body{
+	max-width: 700px; /*not more than this when maximised*/
+	width : 80%;
+	border:solid #bdc3c7 20px;
+	padding: 30px;
+	margin: 20px auto;
+	font-family: 'Source Sans Pro';
+}
+h2{
+	color:#2c3e50;
+	font-size: 2.0rem;
+}
+.date{
+	color:#3998db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;/*rem= a constant ...em =relative variable*/
+	font-weight: 700;
+}
+.begin{
+	border-left: solid #bdc3c7 5px;
+	padding-left: 5px;
+}
+/* Gradient transparent - color - transparent */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.post{
+	margin-bottom: 30px;
+}

@@ -1,0 +1,18 @@
+img{
+	width: 30%;/*so that 3 can fit in 1 line*/
+	float: left;/*to ignore browser given spaces*/
+	margin: 1.66%; /*10divided by 6 why ?question urself, u know */`
+
+}
+
+p{
+	font-family: 'Raleway';
+	margin-left: 1.66%;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: solid grey 3px;
+	width: 30%;
+
+	padding-bottom: 20px;
+}
